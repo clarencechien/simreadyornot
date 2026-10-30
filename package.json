@@ -1,0 +1,27 @@
+{
+  "name": "simreadyornot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "test:browser": "playwright test",
+    "build:review": "tsc --noEmit && vite build --config vite.review.config.ts"
+  },
+  "dependencies": {
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.3.0",
+    "@playwright/test": "1.58.2",
+    "@types/node": "^24.19.2",
+    "@types/three": "0.183.1",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.1",
+    "vite-plugin-singlefile": "^2.3.0"
+  }
+}

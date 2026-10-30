@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "selection": "simready-v3",
+  "notes": "Four NVIDIA SimReady GLBs downloaded and checksum verified; optimized to <=20k triangles each, WebP 512px, meshopt. Blender supplies SMT stations only.",
+  "assets": [
+    {
+      "id": "rack_large_empty_a01",
+      "name": "rack_large_empty_a01",
+      "filename": "rack_large_empty_a01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/rack_large_empty_a01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "8d5fd3b9b7ebf643c0360d4f8504dcbfc7e851c44c9c34eaa0c214f9d5ed8d07",
+      "role": "warehouse-rack",
+      "status": "included",
+      "source_triangles": 44104,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+    },
+    {
+      "id": "pallet_assembly_b01",
+      "name": "pallet_assembly_b01",
+      "filename": "pallet_assembly_b01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/pallet_assembly_b01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "db3180d81395d055879f7b85af4d911978c5f515439c4a3b64edb97803af0d7c",
+      "role": "loaded-pallet",
+      "status": "included",
+      "source_triangles": 53034,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+    },
+    {
+      "id": "vehicle_forklift_orange_a01",
+      "name": "vehicle_forklift_orange_a01",
+      "filename": "vehicle_forklift_orange_a01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/vehicle_forklift_orange_a01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "4b0dfe95e32952eaf50077b87a363b1215d7bb218be5150f4bd9d6874a587e03",
+      "role": "forklift",
+      "status": "included",
+      "source_triangles": 329976,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+    },
+    {
+      "id": "pallet_a01",
+      "name": "pallet_a01",
+      "filename": "pallet_a01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/pallet_a01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "477e2de5901da209855aa6196180b33cb8da387b732eb27fca259e24bb14b647",
+      "role": "pallet",
+      "status": "included",
+      "source_triangles": 2052,
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+    }
+  ],
+  "attribution": [
+    {
+      "name": "NEXUS Blender factory assets",
+      "author": "simreadyornot project",
+      "license": "Original project artwork",
+      "source": "https://github.com/clarencechien/simreadyornot",
+      "usage": "Eight Blender-authored SMT station GLBs; procedural floor, AGVs and schematic map"
+    },
+    {
+      "name": "Three.js",
+      "author": "Three.js contributors",
+      "license": "MIT",
+      "source": "https://github.com/mrdoob/three.js/blob/dev/LICENSE",
+      "usage": "3D rendering, OrbitControls, RoundedBoxGeometry"
+    }
+  ]
+}

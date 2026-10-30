@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rack_large_empty_a01",
+    "file": "src/assets/simready-warehouse-rack.glb",
+    "bytes": 251908,
+    "triangles": 9322,
+    "sha256": "14571d20d814f3f4d7a45101178fed3d9d278ce2148f035428a7a00d512163bb"
+  },
+  {
+    "id": "pallet_assembly_b01",
+    "file": "src/assets/simready-loaded-pallet.glb",
+    "bytes": 180052,
+    "triangles": 2715,
+    "sha256": "dd046e255b6a36b8fbfc9d5434b7cb7ff396b1edb8e558036500556384d77706"
+  },
+  {
+    "id": "vehicle_forklift_orange_a01",
+    "file": "src/assets/simready-forklift.glb",
+    "bytes": 303000,
+    "triangles": 13433,
+    "sha256": "e02906d2b972d0aeeb2e623d6116f3fc9d54e8317072b3b9ff1817075e8f1183"
+  },
+  {
+    "id": "pallet_a01",
+    "file": "src/assets/simready-pallet.glb",
+    "bytes": 81520,
+    "triangles": 2052,
+    "sha256": "093eae30b0714ee4649454ccdc40d90c2fa8b1b0f5d8b5f555416c5cfdbb9009"
+  }
+]

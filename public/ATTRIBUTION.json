@@ -1,0 +1,48 @@
+[
+  {
+    "name": "NEXUS Blender factory assets",
+    "author": "simreadyornot project",
+    "license": "Original project artwork",
+    "source": "https://github.com/clarencechien/simreadyornot",
+    "usage": "Eight Blender-authored SMT station GLBs; procedural floor, AGVs and schematic map"
+  },
+  {
+    "name": "Three.js",
+    "author": "Three.js contributors",
+    "license": "MIT",
+    "source": "https://github.com/mrdoob/three.js/blob/dev/LICENSE",
+    "usage": "3D rendering, OrbitControls, RoundedBoxGeometry"
+  },
+  {
+    "name": "rack_large_empty_a01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "pallet_assembly_b01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "vehicle_forklift_orange_a01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "pallet_a01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  }
+]
