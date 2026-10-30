@@ -26,5 +26,40 @@
     "bytes": 81520,
     "triangles": 2052,
     "sha256": "093eae30b0714ee4649454ccdc40d90c2fa8b1b0f5d8b5f555416c5cfdbb9009"
+  },
+  {
+    "id": "furniture_workbench_standard_e01",
+    "file": "src/assets/simready-workbench.glb",
+    "bytes": 215280,
+    "triangles": 14455,
+    "sha256": "9f31613e0a809be0a70a6693ab3e874e9bcd7c5436692c557d0b221793b909f2"
+  },
+  {
+    "id": "cart_mobile_b01",
+    "file": "src/assets/simready-service-cart.glb",
+    "bytes": 86624,
+    "triangles": 6057,
+    "sha256": "fb50b6b6a276f76aba20009c48c0363d1ee57d6c34a951c3a0b25327efb5abed"
+  },
+  {
+    "id": "palletJack_lowProfile_a01",
+    "file": "src/assets/simready-pallet-jack.glb",
+    "bytes": 155712,
+    "triangles": 5961,
+    "sha256": "a3c562006eea1ce86a496fb967d3d4b01b469ee118dbe0100e5fc7ed0293114f"
+  },
+  {
+    "id": "tools_fireExtinguisher_CO2_a01",
+    "file": "src/assets/simready-extinguisher.glb",
+    "bytes": 127912,
+    "triangles": 6064,
+    "sha256": "71d6f93b0ee90c64d502a7eee9749b3f3440237c9af46596e64ae7587ad952df"
+  },
+  {
+    "id": "conveyor_belt_a05",
+    "file": "src/assets/simready-conveyor.glb",
+    "bytes": 241276,
+    "triangles": 7019,
+    "sha256": "3684e1aabc44a38629571603b5e828bc6a94a1ec69c76dfce7c483148070324d"
   }
 ]

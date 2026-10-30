@@ -1,6 +1,6 @@
 # SimReady warehouse / manufacturing inventory
 
-Both complete upstream JSONL sources were retrieved. 678 matching candidates. Selected models are in scripts/assets/manifest.json; all four selected SimReady binaries are downloaded, SHA-256 verified, optimized and included in the scene.
+Both complete upstream JSONL sources were retrieved. 678 matching candidates. Selected models are in scripts/assets/manifest.json; all nine selected SimReady binaries are downloaded, SHA-256 verified, optimized and included in the scene.
 
 | Asset | Category | MB | Triangles | Thumbnail |
 |---|---|---:|---:|---|

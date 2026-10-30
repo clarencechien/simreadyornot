@@ -4,7 +4,7 @@
     "author": "simreadyornot project",
     "license": "Original project artwork",
     "source": "https://github.com/clarencechien/simreadyornot",
-    "usage": "Eight Blender-authored SMT station GLBs; procedural floor, AGVs and schematic map"
+    "usage": "Original detailed SMT stations, AMR, PCB transfers, populated circuit boards and cutaway factory architecture, authored in Blender; schematic world map."
   },
   {
     "name": "Three.js",
@@ -39,6 +39,46 @@
   },
   {
     "name": "pallet_a01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "furniture_workbench_standard_e01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "cart_mobile_b01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "palletJack_lowProfile_a01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "tools_fireExtinguisher_CO2_a01",
+    "author": "NVIDIA; GLB conversion by codepawl",
+    "license": "CC-BY-4.0",
+    "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+  },
+  {
+    "name": "conveyor_belt_a05",
     "author": "NVIDIA; GLB conversion by codepawl",
     "license": "CC-BY-4.0",
     "source": "https://huggingface.co/datasets/codepawl/simready-glb",

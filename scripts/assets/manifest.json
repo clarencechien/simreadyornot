@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "selection": "simready-v3",
-  "notes": "Four NVIDIA SimReady GLBs downloaded and checksum verified; optimized to <=20k triangles each, WebP 512px, meshopt. Blender supplies SMT stations only.",
+  "selection": "simready-v4",
+  "notes": "Nine SimReady source models; Blender supplies detailed SMT stations, AMRs and architectural kit.",
   "assets": [
     {
       "id": "rack_large_empty_a01",
@@ -66,6 +66,91 @@
       "source_triangles": 2052,
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime."
+    },
+    {
+      "id": "furniture_workbench_standard_e01",
+      "name": "furniture_workbench_standard_e01",
+      "filename": "furniture_workbench_standard_e01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/furniture_workbench_standard_e01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "bb65fa46d7a1ae9fd76b1cdbff0da54bac414d28fb76efa2e4c1d307d2e6b9b4",
+      "role": "workbench",
+      "status": "included",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime.",
+      "source_triangles": 505434,
+      "simplify_ratio": 0.01582798149708963
+    },
+    {
+      "id": "cart_mobile_b01",
+      "name": "cart_mobile_b01",
+      "filename": "cart_mobile_b01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/cart_mobile_b01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "23b3bc3a66b18762e10e79cb8df751a69c618aab845efad5a336a7d1f68bc429",
+      "role": "service-cart",
+      "status": "included",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime.",
+      "source_triangles": 146578,
+      "simplify_ratio": 0.04093383727435222
+    },
+    {
+      "id": "palletJack_lowProfile_a01",
+      "name": "palletJack_lowProfile_a01",
+      "filename": "palletJack_lowProfile_a01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/palletJack_lowProfile_a01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "4ff16a277e07c815960af26feeab4c1343091c2d0d9453fb3f1e0afd7c6015ad",
+      "role": "pallet-jack",
+      "status": "included",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime.",
+      "source_triangles": 180737,
+      "simplify_ratio": 0.0331974083889851
+    },
+    {
+      "id": "tools_fireExtinguisher_CO2_a01",
+      "name": "tools_fireExtinguisher_CO2_a01",
+      "filename": "tools_fireExtinguisher_CO2_a01.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/tools_fireExtinguisher_CO2_a01.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "3fa3980d2d3c25897d0a78104379a90a16b6b56e8af0e9cebb006b7f1e2023b3",
+      "role": "extinguisher",
+      "status": "included",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime.",
+      "source_triangles": 41158,
+      "simplify_ratio": 0.1457796783128432
+    },
+    {
+      "id": "conveyor_belt_a05",
+      "name": "conveyor_belt_a05",
+      "filename": "conveyor_belt_a05.glb",
+      "url": "https://huggingface.co/datasets/codepawl/simready-glb/resolve/main/glb/conveyor_belt_a05.glb",
+      "source": "https://huggingface.co/datasets/codepawl/simready-glb",
+      "author": "NVIDIA; GLB conversion by codepawl",
+      "license": "CC-BY-4.0",
+      "approved": true,
+      "sha256": "7f8a47747ec043d7e5893d6a420d3276e371752e87018cbd548f31d66f5c95df",
+      "role": "conveyor",
+      "status": "included",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "modifications": "Simplified geometry, resized textures to 512px WebP, meshopt compressed; scene origin normalized at runtime.",
+      "source_triangles": 228964,
+      "simplify_ratio": 0.02620499292465191
     }
   ],
   "attribution": [
@@ -74,7 +159,7 @@
       "author": "simreadyornot project",
       "license": "Original project artwork",
       "source": "https://github.com/clarencechien/simreadyornot",
-      "usage": "Eight Blender-authored SMT station GLBs; procedural floor, AGVs and schematic map"
+      "usage": "Original detailed SMT stations, AMR, PCB transfers, populated circuit boards and cutaway factory architecture, authored in Blender; schematic world map."
     },
     {
       "name": "Three.js",
